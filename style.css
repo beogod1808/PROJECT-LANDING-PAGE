@@ -1,0 +1,102 @@
+body{
+    box-sizing: border-box;
+}
+#shop-logo{
+    width:250px;
+    height: 150px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.section1{
+    display:flex;
+    flex-direction: column;
+    padding: 0px 16px 16px 16px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+.shop-detail{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 50px;
+}
+.section2{
+    text-align: center;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 80px;
+}
+.sample{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+.sample-photo{
+    flex: 1;
+    max-width: 300px;
+    height: 100%;
+    /* stop img from stretching in flexbox */
+    align-self: center;
+}
+.section3{
+    background-color: #E5E7EB;
+    padding: 20px 40px 20px 40px;
+}
+.section3 h1{
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+.section3 p{
+    text-align: right;
+    padding-right: 20em;
+}
+.call{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882F6;
+}
+.section1,.footer{
+    background-color: #1F2937; 
+}
+.shop-info p, a{
+    color:#E5E7EB; 
+    font-size: 18px;
+}
+button{
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+}
+.section2 h1{
+    font-size: 36px;
+    font-style:bold;
+    font-weight: 800;
+    color: #1F2937;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.section4{
+    padding: 30px 300px 30px 300px;
+}
